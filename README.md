@@ -8,14 +8,13 @@ Say no more!
 
 With this tool you can specify needed files via toml config file, or all if needed.
 
-# requirements
+# Requirements
 - go
 
 # Effects
 ![image](https://github.com/user-attachments/assets/822724e4-5672-4ed6-86c7-35593cccb38c)
 
-# Config
-config.toml example:
+# Config example
 ```toml
 System32_files_to_dump = [
     "ntoskrnl.exe",
@@ -44,3 +43,7 @@ Silent = true
 # TODO™
 - Restructurize dump layout
 - Dump only these files that had changed since the last dump
+- [unlikely] Add an option to install it, add it to PATH and dump to some user defined directory instead of relative /dumps for actual QoL
+
+# Notes
+This is almost my first Go code, I found the file handling pretty *weird*, lmk if there are any serious issues.
