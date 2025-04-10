@@ -40,3 +40,7 @@ Silent = true
 `change config.toml to your needs`
 
 `go run .`
+
+# TODO™
+- Restructurize dump layout
+- Dump only these files that had changed since the last dump
