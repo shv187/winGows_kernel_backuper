@@ -41,6 +41,7 @@ Silent = true
 `go run .`
 
 # TODO™
+- Rename It
 - Restructurize dump layout
 - Dump only these files that had changed since the last dump
 - [unlikely] Add an option to install it, add it to PATH and dump to some user defined directory instead of relative /dumps for actual QoL
