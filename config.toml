@@ -1,24 +1,20 @@
-# list wanted modules, or put a single "*" to dump all of them
+# list wanted modules, or put a single(!) "*" to dump all of them
 
 System32_files_to_dump = [
     "ntoskrnl.exe",
     "win32k.sys",
     "win32kbase.sys",
     "win32kfull.sys",
-    "win32kbase_rs.sys",
     "ntdll.dll",
     "user32.dll",
     "kernel32.dll",
     "KernelBase.dll",
-    "win32u.dll",
-    "imm32.dll",
-    "gdi32.dll",
-    "gdi32full.dll",
-    "f3ahvoas.dll",
+    "win32u.dll"
 ]
 
 System32Drivers_files_to_dump = [
     "*"
 ]
 
+# Otherwise it logs every copied file
 Silent = true
